@@ -125,7 +125,7 @@ body {
 } */
 
 .container{
-    box-sixing: border-box;
+    box-sizing: border-box;
     border-style: solid;
     border-color: rgb(187, 187, 187);
     background: #FF7F50;
