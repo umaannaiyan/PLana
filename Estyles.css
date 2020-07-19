@@ -1,0 +1,88 @@
+
+nav {
+  /*  padding-block: 0px; */
+    height: 80%;
+    background-color: #DEB887 ;
+}
+ul {
+
+}
+ul li {
+  list-style: none;
+  line-height: 80px;
+  display: y;
+  float-left;
+
+}
+ul li a{
+    display: block;
+font-size: 14px;
+font-family:  'Arial Narrow Bold', sans-serif;
+color: coral;
+padding: 0 10px; 
+}
+
+ul li a:hover { 
+color: coral;
+
+}
+#plahead {
+    padding: 1px;
+    text-align: center;
+    background-color: #9932CC ;
+  }
+  .mainPlana {
+   background-color:#E6E6FA ;
+  }
+  .container{
+      box-sizing: border-box;
+      border-style: solid;
+      border-color: #BA55D3;
+      background:  #DDA0DD;
+      margin: 2px;
+    
+  }
+  /*.left-task{
+    padding: 3px;
+  } */
+  .duedate {
+   padding-left: 350px;;
+  }
+  .menu1 { 
+    padding: 10px;
+    color: black;
+    background-color: 	#DA70D6;
+    margin-left: 20px;
+      box-sizing: border-box; 
+    border-style: solid;
+    border-color:  #BA55D3; 
+  }
+  .menu {
+    padding-left: 60px;
+    padding-top: 25px;
+    font-weight: 20;
+  }
+  
+  .right-task {
+    margin: 2px;
+  }
+  
+  .tast-summit {
+    background-color: chocolate;
+  }
+  .pictask {
+    margin-top; 2px;
+    width: 100vw;
+    height: 500px;
+    background-image: url(./pictask.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer{
+    text-align: center;
+    font-weight: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  color: green;
+  }
