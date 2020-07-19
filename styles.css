@@ -1,168 +1,85 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  .mainPlana{
-      margin: auto;
-  }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
-  
-  html {
-    font-family: "Lucida Sans", sans-serif;
-  }
-  
-  .header {
-    background-color: #33b5e5;
-    color: #ffffff;
-    padding: 15px;
-  }
-  
-  .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color: #33b5e5;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
-  
-  .menu li:hover {
-    background-color: #0099cc;
-  }
-  
-  .aside {
-    background-color: #33b5e5;
-    padding: 15px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
-  
-  .footer {
-    background-color: #0099cc;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-  }
-  
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-  }
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
+nav {
+  /*  padding-block: 0px; */
+    height: 80%;
+    background-color: #DEB887 ;
+}
+ul {
 
-  /* Amutha Code */
-  /* form{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
+}
+ul li {
+  list-style: none;
+  line-height: 60px;
+  display: y;
+  float: left;
 
-/* h1{
-    text-align: center;
-    color: blue;
+}
+nav a{
+  display: block;
+font-size: 19px;
+font-family:  sans-serif;
+padding: 0 10px; 
 }
 
+nav a:hover { 
+color: green;
 
-body {
-    align-items: center;
-    background: #FFE4E1;
-    color: $font-color;
-    display: grid;
-    font-family: $font-family;
-    font-size: 14px;
-    font-weight: 400;
-    height: 100vh;
-    justify-items: center;
-    weight: 100vw;
-
-} */
-
+}
+#plahead {
+  padding: 1px;
+  text-align: center;
+  background-color: #9932CC ;
+}
+.mainPlana {
+ background-color:#E6E6FA ;
+}
 .container{
     box-sizing: border-box;
     border-style: solid;
-    border-color: rgb(187, 187, 187);
-    background: #FF7F50;
+    border-color: #BA55D3;
+    background:  #DDA0DD;
+    margin: 2px;
   
 }
-
-/* #task-summit{
-    background-color: #00008B;
-    margin-left: 20px;
+/*.left-task{
+  padding: 3px;
+} */
+.duedate {
+ padding-left: 350px;;
+}
+.menu1 { 
+  padding: 10px;
+  color: black;
+  background-color: 	#DA70D6;
+  margin-left: 20px;
+  margin-bottom: 2px;
+    box-sizing: border-box; 
+  border-style: solid;
+  border-color:  #BA55D3; 
+}
+.menu {
+  padding-left: 60px;
+  padding-top: 25px;
+  font-weight: 20;
 }
 
-.right-container {
-    display: grid;
-    grid-template-areas: "left right";
-    max-width: 900px;
+.right-task {
+  margin: 2px;
 }
-.left-container {
-    background: $secondary-bg-color;
-    overflow: hidden;
-    padding: 40px 0 0 0;
-    position: relative;
-    text-align: center;
-    width: 300px;
+
+.tast-summit {
+  background-color: chocolate;
+}
+.pictask {
+  margin-top; 2px;
+  width: 100vw;
+  height: 500px;
+  background-image: url(./pictask.jpeg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.footer{
+  text-align: center;
+  font-weight: 0;
   
-    & h1 {
-        color: $font-color;
-        display: inline-block;
-        font-size: 24px;
-    }
-      
-    & i {
-            background: $primary-bg-color;
-            border-radius: 50%;
-            color: $secondary-bg-color;
-            font-size: 24px;
-            margin-right: 5px;
-            padding: 10px;
-            transform: rotate(-45deg);
-        }
-     */
+}
